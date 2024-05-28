@@ -25,7 +25,7 @@ axios
     )
   );
 api.get("/", (req, res) => {
-  res.send("Welcome to weather data API dit me may!");
+  res.send("Welcome to weather data API dit me may Nhan!");
 });
 const wedata = require("./weatherdata.json");
 api.get("/weather", (req, res) => {
